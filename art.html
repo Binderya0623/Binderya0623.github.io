@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Зургууд — Ц. Биндэрцэцэг</title>
+  <meta name="description" content="Ц. Биндэрцэцэгийн (@seaweechan) дижитал болон усан будгийн зургууд.">
+  <meta property="og:title" content="Зургууд — Ц. Биндэрцэцэг">
+  <meta property="og:description" content="Дижитал болон усан будгийн зургууд.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=M+PLUS+Rounded+1c:wght@500;700;800&family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body class="has-mode-switch">
+  <a class="skip-link" href="#main">Үндсэн агуулга руу шилжих</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Нүүр хуудас">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Биндэрцэцэг<span class="dot">.</span></span>
+      </a>
+      <nav class="nav" aria-label="Үндсэн цэс">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#about">Тухай</a></li>
+          <li><a href="index.html#journey">Туршлага</a></li>
+          <li><a href="index.html#awards">Амжилт</a></li>
+          <li><a href="index.html#classes">Хичээл</a></li>
+          <li><a href="art.html" aria-current="page">Зургууд</a></li>
+          <li><a href="index.html#contact">Холбоо барих</a></li>
+        </ul>
+        <button class="icon-btn theme-toggle" type="button" aria-label="Өнгөний горим солих">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" type="button" aria-label="Цэс нээх" aria-expanded="false" aria-controls="nav-links">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="petals" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="container">
+        <p class="kicker"><span class="jp">作品</span> Хобби ба зураг</p>
+        <h1>Зураг бол миний <span class="grad-text">амралт</span> ✦</h1>
+        <p class="lead">
+          6 жилийн турш MLBB Great Creation League (MGL) нийгэмлэгт дижитал зураач-иллюстратораар идэвхтэй оролцож байна.
+          Дижитал зургаас гадна усан будгаар зурах дуртай.
+        </p>
+        <span class="handle">✎ @seaweechan</span>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:32px">
+      <div class="container">
+        <div class="filters" role="group" aria-label="Төрлөөр шүүх">
+          <button class="filter" type="button" data-art-filter="all" aria-pressed="true">Бүгд</button>
+          <button class="filter" type="button" data-art-filter="digital" aria-pressed="false" style="--ph: var(--lav)"><span class="dot"></span>Дижитал</button>
+          <button class="filter" type="button" data-art-filter="watercolor" aria-pressed="false" style="--ph: var(--sky)"><span class="dot"></span>Усан будаг</button>
+        </div>
+
+        <!-- Зураг нэмэх бол:
+             1) assets/img/art/ хавтсанд том зургаа, assets/img/art/thumb/ хавтсанд жижиг хувилбарыг нь хийнэ.
+             2) Доорх <button class="art-card"> блокийг хуулж, data-full, data-title, data-kind, img src-г солино. -->
+        <div class="gallery" id="gallery">
+          <button class="art-card pop hoverable" type="button" id="mirror" data-kind="digital" data-full="assets/img/art/mirror.jpg" data-title="Толин тусгал">
+            <img src="assets/img/art/thumb/mirror.jpg" alt="Толин тусгал — толинд харж буй хоёр дүр, дижитал зураг" loading="lazy" width="608" height="760">
+            <span class="meta"><b>Толин тусгал</b><span class="chip lav">Дижитал</span></span>
+          </button>
+          <button class="art-card pop hoverable" type="button" id="umbrella" data-kind="watercolor" data-full="assets/img/art/umbrella.jpg" data-title="Шүхэртэй охин">
+            <img src="assets/img/art/thumb/umbrella.jpg" alt="Шүхэртэй охин — цагаан үстэй охин нил ягаан шүхэртэй, усан будаг" loading="lazy" width="570" height="760">
+            <span class="meta"><b>Шүхэртэй охин</b><span class="chip sky">Усан будаг</span></span>
+          </button>
+          <button class="art-card pop hoverable" type="button" id="bridge" data-kind="digital" data-full="assets/img/art/bridge.webp" data-title="Гүүрэн дээрх үдэш">
+            <img src="assets/img/art/thumb/bridge.jpg" alt="Гүүрэн дээрх үдэш — нар жаргах үеийн гүүрэн дээрх хоёр дүр, дижитал зураг" loading="lazy" width="608" height="760">
+            <span class="meta"><b>Гүүрэн дээрх үдэш</b><span class="chip lav">Дижитал</span></span>
+          </button>
+          <button class="art-card pop hoverable" type="button" id="hammer" data-kind="watercolor" data-full="assets/img/art/hammer.jpg" data-title="Алхтай бяцхан баатар">
+            <img src="assets/img/art/thumb/hammer.jpg" alt="Алхтай бяцхан баатар — том алх барьсан шаргал үстэй охин, усан будаг" loading="lazy" width="760" height="760">
+            <span class="meta"><b>Алхтай бяцхан баатар</b><span class="chip sky">Усан будаг</span></span>
+          </button>
+          <button class="art-card pop hoverable" type="button" id="harley" data-kind="digital" data-full="assets/img/art/harley.webp" data-title="Harley of House Vance">
+            <img src="assets/img/art/thumb/harley.jpg" alt="Harley of House Vance — малгайтай илбэчин хүү хөзөр шидэж буй, дижитал зураг" loading="lazy" width="608" height="760">
+            <span class="meta"><b>Harley of House Vance</b><span class="chip lav">Дижитал</span></span>
+          </button>
+          <button class="art-card pop hoverable" type="button" id="city" data-kind="digital" data-full="assets/img/art/city.webp" data-title="Хотын гудамжинд">
+            <img src="assets/img/art/thumb/city.jpg" alt="Хотын гудамжинд — хотын гудамжаар алхаж буй хоёр охин, дижитал зураг" loading="lazy" width="608" height="760">
+            <span class="meta"><b>Хотын гудамжинд</b><span class="chip lav">Дижитал</span></span>
+          </button>
+          <button class="art-card pop hoverable" type="button" id="bride" data-kind="digital" data-full="assets/img/art/bride.webp" data-title="Цагаан сүйт бүсгүй">
+            <img src="assets/img/art/thumb/bride.jpg" alt="Цагаан сүйт бүсгүй — шатаар бууж буй цагаан даашинзтай бүсгүй, дижитал зураг" loading="lazy" width="608" height="760">
+            <span class="meta"><b>Цагаан сүйт бүсгүй</b><span class="chip lav">Дижитал</span></span>
+          </button>
+        </div>
+        <p class="copyright-note">© Бүх зургийн зохиогчийн эрх @seaweechan-д хамаарна. Зөвшөөрөлгүйгээр хуулбарлах, ашиглахыг хориглоно.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="jp">趣味</span> Сонирхол</p>
+          <h2>Чөлөөт цагаараа</h2>
+        </div>
+        <div class="hobby-grid">
+          <article class="hobby-card pop reveal">
+            <div class="emoji ic-pink" aria-hidden="true">🎨</div>
+            <h3>Дижитал ба усан будаг</h3>
+            <p>MGL (MLBB Great Creation League) нийгэмлэгт 6 жил дараалан зураач-иллюстратораар оролцож байна.</p>
+          </article>
+          <article class="hobby-card pop reveal">
+            <div class="emoji ic-lav" aria-hidden="true">🧩</div>
+            <h3>Логик сэтгэлгээ</h3>
+            <p>Төвөгтэй алгоритмын бодлого, оньсого, логик даалгавар бодох дуртай.</p>
+          </article>
+          <article class="hobby-card pop reveal">
+            <div class="emoji ic-sky" aria-hidden="true">🎹</div>
+            <h3>Хөгжим</h3>
+            <p>Төгөлдөр хуураар сонгодог болон орчин үеийн бүтээл тоглодог.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Зураг томоор харах">
+    <figure>
+      <img id="lb-img" src="" alt="">
+      <figcaption>
+        <b id="lb-title"></b>
+        <span class="lb-controls">
+          <button class="icon-btn" type="button" id="lb-prev" aria-label="Өмнөх зураг"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button class="icon-btn" type="button" id="lb-next" aria-label="Дараах зураг"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+          <button class="icon-btn" type="button" id="lb-close" aria-label="Хаах"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+        </span>
+      </figcaption>
+    </figure>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year>2026</span> Ц. Биндэрцэцэг · @seaweechan</span>
+      <a href="#main">Дээш буцах ↑</a>
+    </div>
+  </footer>
+
+  <nav class="mode-switch" aria-label="Хуудас сонгох">
+    <a href="index.html">Мэргэжил</a>
+    <a href="art.html" aria-current="page">Хобби ба зураг</a>
+  </nav>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/art.js"></script>
+</body>
+</html>

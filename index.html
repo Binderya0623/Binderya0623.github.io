@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ц. Биндэрцэцэг — Лабораторийн сургагч</title>
+  <meta name="description" content="Ц. Биндэрцэцэг — Монгол Улсын Их Сургуулийн лабораторийн сургагч, программ хангамжийн инженер, зураач.">
+  <meta property="og:title" content="Ц. Биндэрцэцэг — Лабораторийн сургагч">
+  <meta property="og:description" content="Танилцуулга, туршлага, заадаг хичээл, зургууд.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/photo.webp">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=M+PLUS+Rounded+1c:wght@500;700;800&family=Nunito:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body class="has-mode-switch">
+  <a class="skip-link" href="#main">Үндсэн агуулга руу шилжих</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Нүүр хуудас">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Биндэрцэцэг<span class="dot">.</span></span>
+      </a>
+      <nav class="nav" aria-label="Үндсэн цэс">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">Тухай</a></li>
+          <li><a href="#journey">Туршлага</a></li>
+          <li><a href="#awards">Амжилт</a></li>
+          <li><a href="#classes">Хичээл</a></li>
+          <li><a href="art.html">Зургууд</a></li>
+          <li><a href="#contact">Холбоо барих</a></li>
+        </ul>
+        <button class="icon-btn theme-toggle" type="button" aria-label="Өнгөний горим солих">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" type="button" aria-label="Цэс нээх" aria-expanded="false" aria-controls="nav-links">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Нүүр ===== -->
+    <section class="hero">
+      <div class="petals" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="container">
+        <div class="avatar-wrap">
+          <span class="avatar-ring" aria-hidden="true"></span>
+          <!-- Зургаа солих бол assets/img/photo.webp файлыг шинэ зургаар солино. -->
+          <img class="avatar" src="assets/img/photo.webp" alt="Ц. Биндэрцэцэгийн хөрөг зураг" width="1102" height="1427">
+          <span class="bubble" aria-hidden="true">Сайн уу! ♪</span>
+          <span class="sparkle s1" aria-hidden="true">✦</span>
+          <span class="sparkle s2" aria-hidden="true">✦</span>
+          <span class="sparkle s3" aria-hidden="true">✦</span>
+          <span class="sparkle s4" aria-hidden="true">✦</span>
+        </div>
+
+        <p class="hero-role">Лабораторийн сургагч · Программ хангамжийн инженер</p>
+        <h1 class="hero-title">
+          <span class="hello">Сайн байна уу, би</span>
+          <span class="grad-text">Ц. Биндэрцэцэг</span>
+        </h1>
+        <p class="hero-tag">
+          Монгол Улсын Их Сургуульд программ хангамжийн инженерчлэлийн лаборатори заадаг.
+          Алгоритм, бодлогод дуртай, чөлөөт цагаараа дижитал болон усан будгаар зураг зурдаг.
+        </p>
+        <div class="hero-actions">
+          <!-- CV нэмэх бол: PDF-ээ assets/files/Bindertsetseg-Tseden-Ish-CV.pdf нэрээр хуулж, доорх мөрийг нэмнэ:
+          <a class="btn btn-primary" href="assets/files/Bindertsetseg-Tseden-Ish-CV.pdf" download>CV татах</a> -->
+          <a class="btn btn-primary" href="#classes">
+            Заадаг хичээл
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="art.html">Миний зургууд ✦</a>
+        </div>
+        <ul class="socials" aria-label="Холбоосууд">
+          <li><a href="mailto:bindertsetseg.ts@num.edu.mn" aria-label="Имэйл"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a></li>
+          <li><a href="https://github.com/Binderya0623" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.5 2 2 6.6 2 12.2c0 4.5 2.9 8.3 6.8 9.6.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 2.9.8.1-.7.4-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10.1 10.1 0 0 0 22 12.2C22 6.6 17.5 2 12 2z"/></svg></a></li>
+          <li><a href="art.html" aria-label="Зургууд"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.6-.8 1.6-1.6 0-.5-.2-.9-.5-1.2-.3-.3-.5-.7-.5-1.2 0-.9.7-1.6 1.6-1.6H16a5 5 0 0 0 5-5C21 6.4 17 3 12 3z"/><circle cx="7.5" cy="11" r="1.2"/><circle cx="10" cy="7" r="1.2"/><circle cx="15" cy="7" r="1.2"/></svg></a></li>
+        </ul>
+
+        <ul class="stats">
+          <li class="stat pop"><b class="grad-text" data-count="4.0" data-decimals="1">4.0</b><span>Бакалаврын<br>голч дүн</span></li>
+          <li class="stat pop"><b class="grad-text" data-count="6" data-suffix="+">6+</b><span>жил зураг<br>зурж байна</span></li>
+          <li class="stat pop"><b class="grad-text" data-count="3">3</b><span>хэлээр<br>ярьдаг</span></li>
+          <li class="stat pop"><b class="grad-text" data-count="3">3</b><span>IT мэргэжлийн<br>гэрчилгээ</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Миний тухай ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="jp">自己紹介</span> Танилцуулга</p>
+          <h2>Миний тухай</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Би 2026 оны хавар Монгол Улсын Их Сургуулийг Программ хангамжийн инженерчлэлийн мэргэжлээр бакалаврын зэрэгтэй
+              төгссөн. Одоо мөн сургуульдаа Компьютерийн ухааны чиглэлээр магистрт суралцахын зэрэгцээ лабораторийн сургагчаар
+              ажиллаж байна. Бакалаврын голч дүн 4.0/4.0, Компьютерийн ухаан, мэдээллийн технологийн тэнхимийн «Оны шилдэг оюутан» шагналтай.
+            </p>
+            <p>
+              Бодлого бодох, алгоритмаар сэтгэх дуртай. ITPEC-ийн олон улсын гэрчилгээтэй, математик, физикийн олимпиадуудад
+              олон удаа түрүүлж байсан. Багшлах, ментор хийх, full-stack систем хөгжүүлэх замаар бусдад хувь нэмрээ оруулахыг эрмэлздэг.
+            </p>
+            <div class="hello-strip" aria-hidden="true">
+              <div class="hello-track">
+                <span>Сайн уу</span><span>Hello</span><span>こんにちは</span>
+                <span>Сайн уу</span><span>Hello</span><span>こんにちは</span>
+                <span>Сайн уу</span><span>Hello</span><span>こんにちは</span>
+                <span>Сайн уу</span><span>Hello</span><span>こんにちは</span>
+              </div>
+            </div>
+            <ul class="langs" aria-label="Хэлний мэдлэг">
+              <li><b>Монгол</b><span class="bar"><i style="width:100%"></i></span><span class="lvl">Төрөлх</span></li>
+              <li><b>Англи</b><span class="bar"><i style="width:85%"></i></span><span class="lvl">C1</span></li>
+              <li><b>Япон</b><span class="bar"><i style="width:35%"></i></span><span class="lvl">A2</span></li>
+            </ul>
+          </div>
+
+          <aside class="profile-card pop reveal" aria-label="Товч мэдээлэл">
+            <span class="tag">PROFILE</span>
+            <dl class="profile-rows">
+              <div><dt>Ажил</dt><dd>Лабораторийн сургагч, МУИС</dd></div>
+              <div><dt>Мэргэжил</dt><dd>Программ хангамжийн инженер</dd></div>
+              <div><dt>Суралцаж буй</dt><dd>Компьютерийн ухааны магистрант, МУИС</dd></div>
+              <div><dt>Хот</dt><dd>Улаанбаатар</dd></div>
+              <div><dt>Хэл</dt><dd>Монгол · English · 日本語</dd></div>
+              <div><dt>Хобби</dt><dd>Зураг · Төгөлдөр хуур · Оньсого бодлого</dd></div>
+              <div><dt>Зураачийн нэр</dt><dd>@seaweechan</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Туршлага ===== -->
+    <section class="section section-alt" id="journey">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="jp">経歴</span> Туршлага</p>
+          <h2>Миний аялал</h2>
+          <p>Багшлах болон систем хөгжүүлэх ажлын туршлага.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="tl-item now reveal">
+            <article class="tl-card pop">
+              <span class="tl-when">Одоо</span>
+              <h3>Лабораторийн сургагч</h3>
+              <p class="tl-org">Монгол Улсын Их Сургууль</p>
+              <ul>
+                <li>«Программ хангамжийн инженерчлэлийн үндэс» хичээлийн лабораторийг заадаг.</li>
+                <li>Оюутнуудад Git, тест, CI, байршуулалт зэрэг практик ур чадварыг алхам алхмаар заадаг.</li>
+              </ul>
+            </article>
+          </li>
+          <li class="tl-item reveal">
+            <article class="tl-card pop">
+              <span class="tl-when">2025.09 – одоо</span>
+              <h3>Компьютерийн ухаан, технологийн багш</h3>
+              <p class="tl-org">The Essential Engineering Education</p>
+              <ul>
+                <li>Хичээл заадаг.</li>
+                <li>Алгоритмын давтлага хийдэг.</li>
+              </ul>
+            </article>
+          </li>
+          <li class="tl-item reveal">
+            <article class="tl-card pop">
+              <span class="tl-when">2023 – одоо</span>
+              <h3>Full-stack хөгжүүлэгч (академик төсөл)</h3>
+              <p class="tl-org">МУИС-ийн эмнэлэг ба судалгааны удирдлагын систем</p>
+              <ul>
+                <li>МУИС-ийн эмнэлгийн дотоод мэдээллийн системийг багаараа зохиож, хөгжүүлсэн.</li>
+                <li>Бакалаврын судалгааны ажлыг хянах систем (Undergraduate Research Management System)-ийг хамтран хөгжүүлсэн.</li>
+                <li>Программ хангамжийн архитектурын зарчмуудыг ашиглан системийн өргөтгөх чадвар, хэрэглэгчийн өгөгдлийн аюулгүй байдлыг сайжруулсан.</li>
+              </ul>
+            </article>
+          </li>
+          <li class="tl-item reveal">
+            <article class="tl-card pop">
+              <span class="tl-when">2024.12 – 2025.01</span>
+              <h3>Туслах багш / дадлага</h3>
+              <p class="tl-org">Мэдээллийн технологийн үндэсний парк</p>
+              <ul>
+                <li>Програмчлалын үндэс, програмчлалын логикийн хичээлд ахлах багшид тусалсан.</li>
+                <li>Суралцагчдад өгөгдлийн бүтэц, алгоритмын бодлого бодох арга барилыг заасан.</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Боловсрол ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="jp">学歴</span> Боловсрол</p>
+          <h2>Боловсрол</h2>
+        </div>
+        <div class="edu-grid">
+          <article class="edu-card now pop reveal">
+            <span class="tl-when">2026 – одоо</span>
+            <h3>Компьютерийн ухаан, магистр</h3>
+            <p class="school">Монгол Улсын Их Сургууль</p>
+            <div class="score"><span class="chip pink">Суралцаж байна</span></div>
+          </article>
+          <article class="edu-card pop reveal">
+            <span class="tl-when">2022 – 2026</span>
+            <h3>Программ хангамжийн инженерчлэл, бакалавр</h3>
+            <p class="school">Монгол Улсын Их Сургууль</p>
+            <div class="score"><span class="chip pink">GPA 4.0 / 4.0</span><span class="chip lav">Дүн 97.7%</span></div>
+            <ul>
+              <li>«Оны шилдэг оюутан» — Компьютерийн ухаан, мэдээллийн технологийн тэнхим</li>
+            </ul>
+          </article>
+          <article class="edu-card pop reveal">
+            <span class="tl-when">2022.06 төгссөн</span>
+            <h3>Бүрэн дунд боловсрол</h3>
+            <p class="school">Арвайхээрийн 2-р сургууль, Өвөрхангай</p>
+            <div class="score"><span class="chip sky">Төгсөлтийн дүн 100%</span></div>
+            <ul>
+              <li>Улсын тэргүүний сурагч (2015)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Амжилт ===== -->
+    <section class="section section-alt" id="awards">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="jp">受賞</span> Амжилт</p>
+          <h2>Шагнал ба гэрчилгээ</h2>
+        </div>
+
+        <div class="award-grid">
+          <article class="award-card pop reveal">
+            <h3><span class="ic ic-pink" aria-hidden="true">🏆</span>Шагнал, тэтгэлэг</h3>
+            <ul class="award-list">
+              <li><b>Оны шилдэг оюутан</b><span>Компьютерийн ухаан, мэдээллийн технологийн тэнхим, МУИС</span></li>
+              <li><b>Засгийн газрын 100% тэтгэлэг</b><span>Монгол Улсын Засгийн газар · 2024.09</span></li>
+              <li><b>Төслийн удирдлагын кейс тэмцээн — 6-р байр</b><span>PMI Mongolia Chapter · 2025.04</span></li>
+              <li><b>Шинэ оюутны тэтгэлэг — Топ 3</b><span>Хаан банк · 2022.07</span></li>
+            </ul>
+          </article>
+          <article class="award-card pop reveal">
+            <h3><span class="ic ic-lav" aria-hidden="true">📜</span>Мэргэжлийн гэрчилгээ</h3>
+            <ul class="award-list">
+              <li><b>ITPEC FE — Fundamental IT Engineer</b><span>МТҮП · 2025.04</span></li>
+              <li><b>ITPEC IP — IT Passport</b><span>МТҮП · 2024.04 · Шилдэг гэрчилгээ, улсдаа 5-р өндөр оноо</span></li>
+              <li><b>TOPCIT Level 2</b><span>МТҮП · 2024.07 · Оноо 368</span></li>
+            </ul>
+          </article>
+          <article class="award-card pop reveal">
+            <h3><span class="ic ic-sky" aria-hidden="true">🧮</span>Олимпиад</h3>
+            <ul class="award-list">
+              <li><b>Монголын математикийн 58-р олимпиад</b><span>Төгс онооны шагнал</span></li>
+              <li><b>Говийн бүсийн математикийн олимпиад</b><span>Аварга</span></li>
+              <li><b>Аймгийн математикийн олимпиад</b><span>3 удаа аварга</span></li>
+              <li><b>Аймгийн физикийн олимпиад</b><span>Аварга</span></li>
+            </ul>
+          </article>
+        </div>
+
+        <article class="volunteer pop reveal">
+          <h3>♡ Сайн дурын ажил ба манлайлал</h3>
+          <ul>
+            <li><b>Зохион байгуулах хорооны гишүүн</b><span>Мэдээлэл зүйн үндэсний олимпиад ба үндэсний AI олимпиад · 2024–2025</span></li>
+            <li><b>Техникийн ментор</b><span>«My Code's Beginning» хакатон · 2024.10</span></li>
+            <li><b>Програмчлалын ментор</b><span>МТҮП-ийн програмчлалын сургалт · 2025.01</span></li>
+            <li><b>Сайн дурын ажилтан</b><span>MMT 2025 хурал ба PMI олон улсын хурал · 2025</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Ур чадвар ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="jp">スキル</span> Ур чадвар</p>
+          <h2>Ур чадвар</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card pop reveal">
+            <h3>Програмчлал ба технологи</h3>
+            <ul class="chips">
+              <li class="chip pink">Python</li><li class="chip pink">C++</li><li class="chip pink">Java</li>
+              <li class="chip">Программ хангамжийн архитектур</li><li class="chip">Linux</li>
+            </ul>
+          </article>
+          <article class="skill-card pop reveal">
+            <h3>Хэрэгсэл</h3>
+            <ul class="chips">
+              <li class="chip lav">Git</li><li class="chip lav">LaTeX</li>
+              <li class="chip">PowerPoint</li><li class="chip">Canva</li><li class="chip">Microsoft Word</li>
+            </ul>
+          </article>
+          <article class="skill-card pop reveal">
+            <h3>Бүтээлч</h3>
+            <ul class="chips">
+              <li class="chip sky">Дижитал зураг</li><li class="chip sky">Усан будаг</li>
+              <li class="chip">Төгөлдөр хуур</li><li class="chip">Алгоритмын оньсого</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Заадаг хичээл ===== -->
+    <section class="section section-alt" id="classes">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="jp">授業</span> Хичээлүүд</p>
+          <h2>Заадаг хичээл</h2>
+          <p>Хичээл бүрийн хуудсанд долоо хоног бүрийн сэдэв, унших материал, лабораторийн ажил болон бие даан суралцах заавар бий.</p>
+        </div>
+
+        <!-- Шинэ хичээл нэмэх бол доорх <article class="course-card"> блокийг бүхлээр нь хуулж, агуулгыг нь солино. -->
+        <article class="course-card pop reveal">
+          <div class="course-card-body">
+            <p class="eyebrow">Лабораторийн хичээл · 15 долоо хоног</p>
+            <h3>Программ хангамжийн инженерчлэлийн үндэс</h3>
+            <p class="en">Introduction to Software Engineering</p>
+            <p>
+              Программ хангамжийг зүгээр нэг код бичих биш, төлөвлөж, бүтээж, шалгаж, хүргэх инженерийн ажил гэж
+              ойлгоход сурна. Улирлын турш өөрийн жижиг бүтээгдэхүүнийг санаанаас эхлээд нийтэд байршуулах хүртэл хийнэ.
+            </p>
+            <ul class="chips">
+              <li class="chip">Python 3.11+</li>
+              <li class="chip">GitLab</li>
+              <li class="chip">Agile</li>
+              <li class="chip">Материал англи хэл дээр</li>
+            </ul>
+            <a class="btn btn-primary" href="courses/software-engineering.html">
+              Хичээлийн хуудас үзэх
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+          <aside class="course-card-aside" aria-label="Хичээлийн үе шатууд">
+            <p class="eyebrow">4 үе шат</p>
+            <div class="phase-strip" aria-hidden="true">
+              <span class="ph-foundation" style="flex:3"></span>
+              <span class="ph-build" style="flex:5"></span>
+              <span class="ph-quality" style="flex:5"></span>
+              <span class="ph-wrapup" style="flex:2"></span>
+            </div>
+            <ul class="phase-legend">
+              <li class="ph-foundation">Суурь <span class="wk">1–3</span></li>
+              <li class="ph-build">Бүтээх <span class="wk">4–8</span></li>
+              <li class="ph-quality">Чанар <span class="wk">9–13</span></li>
+              <li class="ph-wrapup">Дүгнэлт <span class="wk">14–15</span></li>
+            </ul>
+          </aside>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Зургаас ===== -->
+    <section class="section" id="art">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker"><span class="jp">作品</span> Хобби</p>
+          <h2>Миний зургаас</h2>
+          <p>6 жилийн турш MLBB Great Creation League (MGL) нийгэмлэгт зураач-иллюстратораар оролцож байна. Дижитал болон усан будгаар зурдаг.</p>
+        </div>
+        <div class="art-teaser reveal">
+          <a class="pop" href="art.html#mirror"><img src="assets/img/art/thumb/mirror.jpg" alt="Толин тусгал — дижитал зураг" loading="lazy" width="608" height="760"></a>
+          <a class="pop" href="art.html#umbrella"><img src="assets/img/art/thumb/umbrella.jpg" alt="Шүхэртэй охин — усан будаг" loading="lazy" width="570" height="760"></a>
+          <a class="pop" href="art.html#harley"><img src="assets/img/art/thumb/harley.jpg" alt="Harley of House Vance — дижитал зураг" loading="lazy" width="608" height="760"></a>
+        </div>
+        <div class="art-teaser-foot reveal">
+          <span class="handle">✎ @seaweechan</span>
+          <a class="btn btn-ghost" href="art.html">
+            Бүх зургийг үзэх
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Холбоо барих ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta pop reveal">
+          <span class="deco d1" aria-hidden="true">✦</span>
+          <span class="deco d2" aria-hidden="true">✦</span>
+          <span class="deco d3" aria-hidden="true">✦</span>
+          <p class="kicker" style="justify-content:center"><span class="jp">連絡</span> Холбоо барих</p>
+          <h2>Хамтдаа <span class="grad-text">ярилцъя</span></h2>
+          <p>Хичээлийн асуулт, хамтын ажил эсвэл зүгээр л мэндчилгээ — имэйлээр холбогдоорой. Лабораторийн цагаар биечлэн ч асууж болно.</p>
+          <a class="mail" href="mailto:bindertsetseg.ts@num.edu.mn">bindertsetseg.ts@num.edu.mn</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="mailto:bindertsetseg.ts@num.edu.mn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              Имэйл бичих
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/Binderya0623" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year>2026</span> Ц. Биндэрцэцэг · Монгол Улсын Их Сургууль</span>
+      <a href="#main">Дээш буцах ↑</a>
+    </div>
+  </footer>
+
+  <nav class="mode-switch" aria-label="Хуудас сонгох">
+    <a href="index.html" aria-current="page">Мэргэжил</a>
+    <a href="art.html">Хобби ба зураг</a>
+  </nav>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
