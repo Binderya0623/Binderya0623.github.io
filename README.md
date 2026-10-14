@@ -6,7 +6,7 @@ Personal portfolio (Mongolian, anime-style theme). Plain HTML/CSS/JS with no bui
 index.html                         Home ("Мэргэжил"): hero, about, experience, education, awards, skills, class, contact
 art.html                           Drawings ("Хобби ба зураг"): gallery with full-size viewer, hobbies
 courses/software-engineering.html  "Программ хангамжийн инженерчлэлийн үндэс" course page
-assets/img/photo.webp              Profile photo
+assets/img/avatar.jpg              Profile picture
 assets/img/art/                    Full-size drawings (thumb/ = small gallery versions)
 assets/js/course-weeks.js          ← the 15-week plan (edit content here)
 assets/js/course.js                Week list, filters, progress, glossary search
@@ -18,7 +18,7 @@ assets/css/style.css               All styles (colors at the top)
 ## Common edits
 
 - **Add the CV** (currently not published): copy the PDF to `assets/files/Bindertsetseg-Tseden-Ish-CV.pdf`, then in `index.html` add the download button shown in the comment inside `hero-actions`. Before publishing, remove your home address, date of birth and other private details from the PDF.
-- **Change the photo**: replace `assets/img/photo.webp`, keeping the same name.
+- **Change the profile picture**: replace `assets/img/avatar.jpg`, keeping the same name (a square image works best).
 - **Add a drawing**:
   1. Put the full image in `assets/img/art/`.
   2. Make a smaller copy (about 760 px tall) in `assets/img/art/thumb/`. On a Mac:
